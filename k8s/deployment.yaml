@@ -19,7 +19,7 @@ spec:
       containers:
       - name: node-demo
 
-        image: <+artifacts.primary.image>
+        image: <+artifacts.primary.imagePath>:<+artifacts.primary.tag>
 
         ports:
         - containerPort: 3000
