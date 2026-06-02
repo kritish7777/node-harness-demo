@@ -19,7 +19,7 @@ spec:
       containers:
       - name: node-demo
 
-        image: <+artifact.metadata.image>
+        image: kritish7777/node-harness-demo:<+artifact.tag>
 
         ports:
         - containerPort: 3000
