@@ -19,7 +19,7 @@ spec:
       containers:
       - name: node-demo
 
-        image: IMAGE_PLACEHOLDER
+        image: <+artifact.image>
 
         ports:
         - containerPort: 3000
